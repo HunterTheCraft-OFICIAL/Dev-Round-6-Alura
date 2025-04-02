@@ -1,0 +1,120 @@
+---
+
+# CRIE SEU JOGO USANDO CONDICIONAIS
+PARTICIPE E VÁ MAIS FUNDO
+Boas-vindas! Nesta aula, você vai dar um mergulho importante no universo das condicionais, um
+conceito essencial que será muito utilizado ao longo da nossa jornada de programação. Vamos juntos dar mais um passo rumo à sua carreira em tecnologia!
+Link do projeto inicial.
+Como criar uma conta no codepen.
+APROVEITE PARA ASSISTIR AGORA! ESSA AULA ESTÁ DISPONÍVEL POR POUCOS DIAS!
+
+---
+
+# Introdução
+
+Nesta aula, vamos criar um jogo de Pedra, Papel e Tesoura contra o computador. Vamos utilizar
+condicionais (if/else) para verificar a escolha do jogador e implementar o Math.random() para gerar a
+jogada do computador.
+
+* Link do projeto inicial.
+* Como criar uma conta no codepen.
+
+## Nesta aula, você vai:
+* Revisar rapidamente os conceitos da Aula 1.
+* Utilizar condicionais (if) para verificar a idade do jogador.
+* Entender e implementar o Math.random() para gerar a jogada do computador.
+* Construir a lógica do jogo comparando as escolhas do usuário e do PC.
+## Link do projeto base:
+* Link do projeto inicial.
+* Como criar uma conta no codepen.
+
+---
+
+# Links importantes para você acompanhar a aula
+
+* Code Pen: O que é e como usar?
+* O que é Javascript?
+* Acesse o Guia de Mergulho
+* Participe do grupo do Whatsapp e fique por dentro de todas as novidades: *Acesse aqui*
+
+---
+
+# Mergulhe mais profundo
+
+Aprofunde-se nos seguintes tópicos:
+* Mergulhe a fundo em carreiras tech com o Techguide.
+* Como utilizar operadores de comparação em Javascript
+* Saiba mais sobre a função Math.random()
+
+---
+
+# Como compartilhar seu Projeto
+
+Compartilhe seu codespace com outras pessoas pelo Codepen:
+Como compartilhar seu projeto no CodePen:
+* Abra o seu projeto (Pen):
+Vá até https://codepen.io e clique no seu Pen salvo (ou crie um novo).
+
+* Salve o projeto:
+
+* Certifique-se de que está salvo clicando no botão Save (ícone de disquete no topo).
+* Copie o link de compartilhamento:
+* O URL que aparece na barra de endereço do navegador já é o link de compartilhamento! Exemplo: https://codepen.io/seu-usuario/pen/abc123 Ou clique no botão “Share”: Fica no canto superior direito do editor.
+
+* Ali você pode:
+
+* Copiar o link direto
+* Compartilhar via Twitter, Facebook etc.
+* Gerar um embed para colocar o projeto em sites/blogs
+
+---
+
+## Divulgue seu projeto
+* Quem compartilha seus projetos ganha mais visibilidade no mercado! Poste seu progresso no LinkedIn e
+* use a hashtag #Imersao-dev-alura para interagir com outros devs e até chamar atenção de recrutadores!
+* Estamos ansiosos para mergulhar em aprendizado junto com você! Bom mergulho e até a próxima aula.
+* Como compartilhar seu Projeto 
+
+---
+
+# QUEM SÃO OS MERGULHADORES?
+
+## INSTRUTORES E INSTRUTORAS DA ALURA NESSA IMERSÃO
+* André David
+Professor e Coordenador FIAP
+
+* Fernanda Degolin
+Desenvolvedora Front-end na Globo
+* Paulo Silveira
+CEO
+
+---
+
+# LIVES DESTA IMERSÃO!
+REVEJA TUDO QUE ACONTECEU DURANTE AS LIVES
+
+## Lives Originais (⚠️ Irão ficar Privadas)
+
+* https://www.youtube.com/watch?v=SxyuMZhR8HM
+
+* https://www.youtube.com/watch?v=dQfiRKagO-E
+
+* 
+
+* 
+
+* 
+
+## Lives Backups (Inexistentes)
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+---
