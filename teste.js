@@ -1,3 +1,6 @@
 console.log("oi")
 
-alert("Olá Mundo!")
+//Não funciona fora dos consoles dos navegadores como Chrome 
+//alert("Olá Mundo!")
+
+//10 + 2
