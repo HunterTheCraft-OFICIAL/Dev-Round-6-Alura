@@ -1,11 +1,10 @@
 
-Quero Melhorar isso exemplo quero mostrar os valores formatados corretamente com às pontuações corretas para ficar bonito visualmente independente do valor. Ps: o Câmbio e em relação ao Real de um Projeto temático de uma Imersão Dev_ da Alura
-código:
+let valorWons = prompt("Digite um valor em wons:");
 
-valorwons = prompt("Digite um valor em wons:")
-//alert(valorwons)
+const taxaCambioWonParaReal = 0.0040;
+const valorReal = valorWons * taxaCambioWonParaReal;
 
-umwon = 0.0040
-alert("R$" + valorwons * umwon)
+// Formata o valor para Real (BRL)
+const valorFormatado = valorReal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 
-//Fim da Primeira Aula da Imersão Dev_ 
+alert(valorFormatado);

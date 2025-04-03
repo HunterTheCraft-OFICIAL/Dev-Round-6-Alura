@@ -9,12 +9,3 @@ umwon = 0.0040
 alert("R$" + valorwons * umwon)
 
 //Fim da Primeira Aula da Imersão Dev_ 
-let valorWons = prompt("Digite um valor em wons:");
-
-const taxaCambioWonParaReal = 0.0040;
-const valorReal = valorWons * taxaCambioWonParaReal;
-
-// Formata o valor para Real (BRL)
-const valorFormatado = valorReal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
-
-alert(valorFormatado);
