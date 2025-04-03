@@ -1,4 +1,4 @@
 
-prompt("Digite um valor em wons")
+valor = prompt("Digite um valor em wons")
 
 
