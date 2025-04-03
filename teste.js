@@ -9,3 +9,4 @@ console.log("oi")
 //44 / 3
 
 
+alert(44 / 3)
