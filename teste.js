@@ -4,3 +4,11 @@ console.log("oi")
 //alert("Olá Mundo!")
 
 //10 + 2
+//45-3
+//14 * 2
+
+try {
+
+45 - 3
+
+} else { 14 * 2 }
