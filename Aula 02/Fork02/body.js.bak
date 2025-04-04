@@ -25,21 +25,27 @@ if (idade >= 18) {
   // Pedra + Papel = Perde ✓
   // Pedra + Tesoura = Vence ✓
   
-  if (escolhaJogador == 1) {}
+  if (escolhaJogador == 1) {
+  
+  }
   
   // Cenário - 3
   // Papel + Pedra = Vence ✓
   // Papel + Papel = Empate ×
   // Papel + Tesoura = Perde ✓
   
-  if (escolhaJogador == 2) {}
+  if (escolhaJogador == 2) {
+  
+  }
   
   // Cenário - 4
   // Tesoura + Pedra = Vence ✓
   // Tesoura + Papel = Perde ✓
   // Tesoura + Tesoura = Empate ×
   
-  if (escolhaJogador == 3) {}
+  if (escolhaJogador == 3) {
+  
+  }
   
 }
 
