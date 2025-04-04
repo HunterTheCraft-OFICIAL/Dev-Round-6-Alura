@@ -9,7 +9,7 @@ if (idade >= 18) {
   
   escolhaJogador = prompt("Escolha: 1-Pedra, 2-Papel ou 3-Tesoura") 
   
-  escolhaComputador = Math.floor(Math.random( ) * 2) + 1;
+  escolhaComputador = Math.floor(Math.random( ) * 3) + 1;
   
 }
 
