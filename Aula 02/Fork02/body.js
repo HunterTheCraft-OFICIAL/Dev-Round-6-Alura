@@ -1,17 +1,14 @@
-  // Papel + Pedra = Vence ✓ 1
-  // Papel + Papel = Empate × 2
-  // Papel + Tesoura = Perde ✓ 3
   
   if (escolhaJogador == 2) {
     
     // Papel + Pedra = Vence 
     if(escolhaComputador == 1) {
-      alert("O Jogador Venceu! o Computador escolheu:" escolhaComputador)
+      alert("O Jogador Venceu! o Computador escolheu:" + escolhaComputador)
     }
     
     // Papel + Tesoura = Perde 
-    if(escolhaComputador == 3 {
-       alert("O Computador Venceu! o Computador escolheu:" escolhaComputador)
+    if(escolhaComputador == 3) {
+       alert("O Computador Venceu! o Computador escolheu:" + escolhaComputador)
        }
     
   }
@@ -25,12 +22,12 @@
     
     // Tesoura + Pedra = Vence
     if(escolhaComputador == 1) {
-      alert("O Jogador Venceu! o Computador escolheu:" escolhaComputador)
+      alert("O Jogador Venceu! o Computador escolheu:"  + escolhaComputador)
     }
       
     // Tesoura + Papel = Perde 
     if(escolhaComputador == 2) {
-      alert("O Computador Venceu! o Computador escolheu:" escolhaComputador)
+      alert("O Computador Venceu! o Computador escolheu:" + escolhaComputador)
     }
   }
   
