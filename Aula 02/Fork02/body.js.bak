@@ -7,7 +7,9 @@ if (idade < 18) {
 if (idade >= 18) {
   alert("Parabéns você pode Jogar Jokenpo")
   
-  escolhaJogador = 
+  escolhaJogador = prompt("Escolha: 1-Pedra, 2-Papel ou 3-Tesoura") 
+  
+  escolhaComputador = Math.floor(Math.random( ) * 2) + 1
   
 }
 
