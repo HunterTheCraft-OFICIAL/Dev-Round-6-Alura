@@ -1,4 +1,4 @@
 idade = prompt("Qual a sua Idade?")
-if (idade > 18) {
+if (idade >= 18) {
   alert("Parabéns você pode Jogar Jokenpo")
 }
