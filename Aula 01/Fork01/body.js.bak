@@ -1,10 +1,12 @@
 
-let valorWons = prompt("Digite um valor em wons:");
+let valorwons = prompt("Digite um Valor em Wons")
+//alert(valorwons)
 
-const taxaCambioWonParaReal = 0.0040;
-const valorReal = valorWons * taxaCambioWonParaReal;
+umwon = 0.0040
+//alert("R$" + valorwons * umwon)
 
-// Formata o valor para Real (BRL)
-const valorFormatado = valorReal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+let valorReal = valorwons * umwon
 
-alert(valorFormatado);
+let valorFormatado = valorReal.toLocaleString('BTL', {style: 'currency', currency: 'BRL'});
+
+alert(valorFormatado)
