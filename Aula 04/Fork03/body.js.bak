@@ -1,8 +1,13 @@
 //Novo Jogo
 
-rodada = 1;
+//rodada = 1;
 
-while (rodada <= 3) {
+//Se Ganhou for 0 significa que não ganhou já se ganhou for 1 então Ganhou
+let ganhou = 0;
+
+//while (rodada <= 3) {
+
+for (let rodada = 1; rodada <= 3; rodada++) {
   console.log("Rodada: " + rodada);
 
   // rodada = rodada + 1
@@ -23,15 +28,14 @@ while (rodada <= 3) {
     //Passou com Dificuldades
 
     alert("O Piso Quebrado ficou no " + pisoQuebrado + ".");
-  } //
-  /*else {
 
-alert("Você NÃO sobreviveu");
+    ganhou = 1;
+  }
 
-}*/ rodada = rodada + 1;
+  //rodada = rodada + 1;
 }
 
-if (rodada == 4) {
+if (ganhou == 1) {
   alert("Você Sobreviveu por pouco!");
 } else {
   alert("Você NÃO sobreviveu");
@@ -42,3 +46,4 @@ if (rodada == 4) {
 //Rodada 4
 
 //Fim da Aula 03
+//Mais conteúdo na Aula 04
