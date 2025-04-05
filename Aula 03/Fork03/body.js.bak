@@ -23,7 +23,7 @@ rodada = 1000;
 alert("O Piso Quebrado ficou no " + pisoQuebrado + ".");
 } else {
 
-
+alert("Você NÃO sobreviveu");
 
 }
 
@@ -32,9 +32,7 @@ rodada = rodada + 1;
 
 if (rodada == 4) {
     alert("Você Sobreviveu por pouco!");
-} else {
-    alert("Você NÃO sobreviveu");
-}
+} 
 
 //rodada = 4
 
