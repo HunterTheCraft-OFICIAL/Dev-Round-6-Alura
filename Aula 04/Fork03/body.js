@@ -1,8 +1,10 @@
 //Novo Jogo
 
-rodada = 1;
+//rodada = 1;
 
-while (rodada <= 3) {
+//while (rodada <= 3) {
+
+for(let rodada = 1; rodada <= 3; rodada++){
   console.log("Rodada: " + rodada);
 
   // rodada = rodada + 1
@@ -23,12 +25,9 @@ while (rodada <= 3) {
     //Passou com Dificuldades
 
     alert("O Piso Quebrado ficou no " + pisoQuebrado + ".");
-  } //
-  /*else {
+  } 
 
-alert("Você NÃO sobreviveu");
-
-}*/ rodada = rodada + 1;
+//rodada = rodada + 1;
 }
 
 if (rodada == 4) {
@@ -42,3 +41,4 @@ if (rodada == 4) {
 //Rodada 4
 
 //Fim da Aula 03
+//Mudanças na Aula 04
