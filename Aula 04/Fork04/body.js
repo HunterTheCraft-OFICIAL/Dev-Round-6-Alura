@@ -1,3 +1,5 @@
-//Preciso criar uma lista com 3 times
+//Preciso criar uma lista com jogadores 
+
+//Times > 3 Times > jogadores 
 
 //
