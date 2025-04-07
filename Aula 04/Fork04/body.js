@@ -1,3 +1,3 @@
-//Preciso criar uma lista com times
+//Preciso criar uma lista com 3 times
 
 //
