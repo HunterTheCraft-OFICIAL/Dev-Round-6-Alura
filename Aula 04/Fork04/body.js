@@ -1,5 +1,9 @@
 //Preciso criar uma lista com 3 jogadores 
 
+jogador1 = prompt()
+jogador2 = prompt()
+jogador3 = prompt()
+
 //Times > 3 Times > jogadores > 3 jogadores 
 
 //Calcular a Força de cada Jogador, Somar para obter a força do time

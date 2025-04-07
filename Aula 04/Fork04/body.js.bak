@@ -6,3 +6,4 @@
 
 //Calcular a força de cada jogador e obter a soma da força total do time do computador 
 
+//Comparar os 2 times para saber quem venceu (Jogador vs Computador)
