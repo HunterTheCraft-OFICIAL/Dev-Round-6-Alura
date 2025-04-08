@@ -23,6 +23,16 @@ console.log("O Personagem "+ escolhaPersonagem +" foi adicionado a lista")
 
 console.log("Todos os Personagens da lista são: "+personagens)
 
+//Escolha Randomizada do Computador:
+
+
+for (let i = 0; i - 3; i++) {
+indiceAleatorio = Math.floor(Math.random() * 10)
+
+viloesPossiveis[]
+
+}
+
 //Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
 
 //Calcular a Força de cada Jogador, Somar para obter a força do time
