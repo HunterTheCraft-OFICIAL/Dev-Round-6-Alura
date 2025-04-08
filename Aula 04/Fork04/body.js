@@ -25,12 +25,15 @@ console.log("Todos os Personagens da lista são: "+personagens)
 
 //Escolha Randomizada do Computador:
 
+console.log("Os Vilões atuais são ("+viloes+")")
 
 for (let i = 0; i - 3; i++) {
-indiceAleatorio = Math.floor(Math.random() * 10)
+indiceAleatorio = Math.floor(Math.random() * 5)
 
 //Ex: Vilões de Novelas 
 viloesPossiveis["Nazaré Tedesco", "Odete Roitman", "Flora", "Carminha", "Laura Prudente da Costa"]
+
+
 
 }
 
