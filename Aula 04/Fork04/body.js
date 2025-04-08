@@ -19,6 +19,9 @@ personagens[i] = escolhaPersonagem
 
 console.log("O Personagem "+ escolhaPersonagem +" foi adicionado a lista")
 
+//Força do Personagem 
+forcaPersonagem = forcaPersonagem + Math.floor(Math.random() * 50)+1
+
 }
 
 console.log("Todos os Personagens da lista são: "+personagens)
