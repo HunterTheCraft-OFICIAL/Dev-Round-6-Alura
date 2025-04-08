@@ -58,6 +58,10 @@ console.log("A Equipe de Vilões escolhidos pelo Computador foi "+viloes)
 
 //Comparar os 2 times para saber quem venceu (Jogador vs Computador)
 
+if(forcaPersonagem > forçaViloes) {
 
+} else {
+
+}
 
 //O que será?
