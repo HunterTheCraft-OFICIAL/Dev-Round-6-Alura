@@ -59,13 +59,19 @@ console.log("A Equipe de Vilões escolhidos pelo Computador foi "+viloes)
 //Comparar os 2 times para saber quem venceu (Jogador vs Computador)
 
 if(forcaPersonagem > forçaViloes) {
-alert("Parabéns seu Time Ganhou com uma Vantagem de " forcaPersonagem - forçaViloes " de Força sendo a sua Força de "forcaPersonagem" e a Força dos vilões sendo "forçaViloes)
 
-console.log("Parabéns seu Time Ganhou com uma Vantagem de " forcaPersonagem - forçaViloes " de Força sendo a sua Força de "forcaPersonagem" e a Força dos vilões sendo "forçaViloes)
+powerDifference = forcaPersonagem - forçaViloes;
+
+alert("Parabéns seu Time Ganhou com uma Vantagem de "+ powerDifference +" de Força sendo a sua Força de "+ forcaPersonagem +" e a Força dos vilões sendo "+ forçaViloes)
+
+console.log("Parabéns seu Time Ganhou com uma Vantagem de "+ powerDifference +" de Força sendo a sua Força de "+ forcaPersonagem +" e a Força dos vilões sendo "+ forçaViloes)
 } else {
-alert("Não foi dessa vez seu Time Perdeu com uma desvantagem de " forçaViloes - forcaPersonagem " de Força sendo a sua Força de "forcaPersonagem" e a Força dos vilões sendo "forçaViloes)
 
-console.log("Não foi dessa vez seu Time Perdeu com uma desvantagem de " forçaViloes - forcaPersonagem " de Força sendo a sua Força de "forcaPersonagem" e a Força dos vilões sendo "forçaViloes)
+powerDifference = forçaViloes - forcaPersonagem; 
+
+alert("Ah não foi dessa vez seu time perdeu com uma desvantagem de "+ powerDifference +" de Força sendo a sua Força de "+ forcaPersonagem +" e a Força dos vilões sendo "+ forçaViloes)
+
+console.log("Ah não foi dessa vez seu time perdeu com uma desvantagem de "+ powerDifference +" de Força sendo a sua Força de "+ forcaPersonagem +" e a Força dos vilões sendo "+ forçaViloes)
 }
 
 //O que será?
