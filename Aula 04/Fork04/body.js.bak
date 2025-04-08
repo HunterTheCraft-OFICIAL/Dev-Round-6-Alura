@@ -20,7 +20,8 @@ personagens[i] = escolhaPersonagem
 console.log("O Personagem "+ escolhaPersonagem +" foi adicionado a lista")
 
 //Força do Personagem 
-forcaPersonagem = forcaPersonagem + Math.floor(Math.random() * 50)+1
+//forcaPersonagem = forcaPersonagem + Math.floor(Math.random() * 50)+1
+forcaPersonagem += Math.floor(Math.random() * 50)+1
 
 }
 
@@ -39,6 +40,9 @@ viloesPossiveis = ["Nazaré Tedesco", "Odete Roitman", "Flora", "Carminha", "Lau
 viloes[i] = viloesPossiveis[indiceAleatorio]
 
 console.log("O Vilão escolhido pelo Computador foi "+viloes)
+
+//Força dos Vilões 
+forçaViloes += Math.floor(Math.random() * 10)+1
 
 }
 

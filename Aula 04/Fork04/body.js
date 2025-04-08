@@ -19,8 +19,10 @@ personagens[i] = escolhaPersonagem
 
 console.log("O Personagem "+ escolhaPersonagem +" foi adicionado a lista")
 
+//Calcular a Força de cada Jogador, Somar para obter a força do time
+
 //Força do Personagem 
-forcaPersonagem = forcaPersonagem + Math.floor(Math.random() * 50)+1
+//forcaPersonagem = forcaPersonagem + Math.floor(Math.random() * 50)+1
 forcaPersonagem += Math.floor(Math.random() * 50)+1
 
 }
@@ -41,15 +43,20 @@ viloes[i] = viloesPossiveis[indiceAleatorio]
 
 console.log("O Vilão escolhido pelo Computador foi "+viloes)
 
+//Calcular a força de cada jogador e obter a soma da força total do time do computador 
+
+//Força dos Vilões 
+forçaViloes += Math.floor(Math.random() * 10)+1
+
 }
 
 console.log("A Equipe de Vilões escolhidos pelo Computador foi "+viloes)
 
 //Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
 
-//Calcular a Força de cada Jogador, Somar para obter a força do time
 
-//Calcular a força de cada jogador e obter a soma da força total do time do computador 
+
+
 
 //Comparar os 2 times para saber quem venceu (Jogador vs Computador)
 
