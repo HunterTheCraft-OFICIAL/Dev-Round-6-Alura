@@ -67,11 +67,19 @@ alert("Parabéns seu Time Ganhou com uma Vantagem de "+ powerDifference +" de Fo
 console.log("Parabéns seu Time Ganhou com uma Vantagem de "+ powerDifference +" de Força sendo a sua Força de "+ forcaPersonagem +" e a Força dos vilões sendo "+ forcaViloes)
 } else {
 
+if(forcaPersonagem < forcaViloes) {
+
 powerDifference = forcaViloes - forcaPersonagem; 
 
 alert("Ah não foi dessa vez seu time perdeu com uma desvantagem de "+ powerDifference +" de Força sendo a sua Força de "+ forcaPersonagem +" e a Força dos vilões sendo "+ forcaViloes)
 
 console.log("Ah não foi dessa vez seu time perdeu com uma desvantagem de "+ powerDifference +" de Força sendo a sua Força de "+ forcaPersonagem +" e a Força dos vilões sendo "+ forcaViloes)
+} else {
+
+alert("Houve um Empate entre você e os Vilões no Cabo de Guerra" + forcaPersonagem)
+
+console.log("Houve um Empate entre você e os Vilões no Cabo de Guerra" + forcaPersonagem)
+
 }
 
 //O que será?
