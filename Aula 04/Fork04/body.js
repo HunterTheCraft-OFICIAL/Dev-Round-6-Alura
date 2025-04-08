@@ -7,7 +7,12 @@ viloes = {"", "", ""}
 forçaPersonagem = 0
 forçaViloes = 0
 
-for(let i=0; i-3; i++)
+for (let i = 0; i - 3; i++) {
+
+personagem = prompt("Digite o nome do seu personagem" + (i+1))
+
+
+}
 
 //Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
 
