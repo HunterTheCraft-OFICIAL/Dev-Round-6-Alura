@@ -10,7 +10,7 @@ forçaViloes = 0
 for (let i = 0; i - 3; i++) {
 
 escolhaPersonagem = prompt("Digite o nome do seu personagem" + (i+1))
-personagem[i]
+personagem[i] = escolhaPersonagem
 
 }
 
