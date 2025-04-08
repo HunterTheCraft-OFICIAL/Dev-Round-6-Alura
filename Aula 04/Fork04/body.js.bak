@@ -7,12 +7,19 @@ viloes = {"", "", ""}
 forçaPersonagem = 0
 forçaViloes = 0
 
+alert("Os Personagens atuais armazenados são:" + personagens)
+console.log("Os Personagens atuais armazenados são:" + personagens)
+
 for (let i = 0; i - 3; i++) {
 
 escolhaPersonagem = prompt("Digite o nome do seu personagem" + (i+1))
-personagem[i]
+personagem[i] = escolhaPersonagem
+
+console.log("O Personagem "+ escolhaPersonagem +" foi adicionado a lista")
 
 }
+
+
 
 //Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
 
