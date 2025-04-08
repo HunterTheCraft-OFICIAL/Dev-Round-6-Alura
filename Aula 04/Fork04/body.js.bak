@@ -69,8 +69,6 @@ console.log("Parabéns seu Time Ganhou com uma Vantagem de "+ powerDifference +"
 
 powerDifference = forçaViloes - forcaPersonagem; 
 
-//alert("Não foi dessa vez seu Time Perdeu com uma desvantagem de " forçaViloes - forcaPersonagem " de Força sendo a sua Força de "forcaPersonagem" e a Força dos vilões sendo "forçaViloes)
-
 alert("Ah não foi dessa vez seu time perdeu com uma desvantagem de "+ powerDifference +" de Força sendo a sua Força de "+ forcaPersonagem +" e a Força dos vilões sendo "+ forçaViloes)
 
 console.log("Ah não foi dessa vez seu time perdeu com uma desvantagem de "+ powerDifference +" de Força sendo a sua Força de "+ forcaPersonagem +" e a Força dos vilões sendo "+ forçaViloes)
