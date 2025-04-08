@@ -4,6 +4,8 @@
 
 personagens = ["", "", ""]
 
+//Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
+
 viloes = ["", "", ""]
 
 forçaPersonagem = 0
@@ -52,12 +54,14 @@ forçaViloes += Math.floor(Math.random() * 10)+1
 
 console.log("A Equipe de Vilões escolhidos pelo Computador foi "+viloes)
 
-//Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
-
-
-
 
 
 //Comparar os 2 times para saber quem venceu (Jogador vs Computador)
+
+if(forcaPersonagem > forçaViloes) {
+
+} else {
+
+}
 
 //O que será?
