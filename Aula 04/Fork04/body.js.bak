@@ -2,7 +2,7 @@
 
 personagens = {"", "", ""}
 
-personagensComputador = {"", "", ""}
+viloes = {"", "", ""}
 
 //Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
 
