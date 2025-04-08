@@ -31,11 +31,15 @@ for (let i = 0; i - 3; i++) {
 indiceAleatorio = Math.floor(Math.random() * 5)
 
 //Ex: Vilões de Novelas 
-viloesPossiveis["Nazaré Tedesco", "Odete Roitman", "Flora", "Carminha", "Laura Prudente da Costa"]
+viloesPossiveis = ["Nazaré Tedesco", "Odete Roitman", "Flora", "Carminha", "Laura Prudente da Costa"]
 
+viloes[i] = viloesPossiveis[indiceAleatorio]
 
+console.log("O Vilão escolhido pelo Computador foi "+viloes)
 
 }
+
+console.log("A Equipe de Vilões escolhidos pelo Computador foi "+viloes)
 
 //Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
 
