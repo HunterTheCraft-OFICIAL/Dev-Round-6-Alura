@@ -7,7 +7,7 @@ viloes = {"", "", ""}
 forçaPersonagem = 0
 forçaViloes = 0
 
-for(let i=0; i-3; i++)
+for(let i=0; i<3; i++)
 
 //Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
 
