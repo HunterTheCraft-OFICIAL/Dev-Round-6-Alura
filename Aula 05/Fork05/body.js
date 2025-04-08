@@ -1,5 +1,6 @@
 // PARTE 1: Lista de perguntas e respostas
-perguntas = [{pergunta:""}]
+perguntas = [{pergunta:"Qual é o Principal Pokémon do Ash?",
+             respostas:["Picachu", "Charizard", "Bubassauro"]}]
 
 
 // PARTE 2: Pegando os elementos do HTML

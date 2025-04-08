@@ -1,5 +1,5 @@
 // PARTE 1: Lista de perguntas e respostas
-pergunta = [{}]
+perguntas = [{pergunta:""}]
 
 
 // PARTE 2: Pegando os elementos do HTML
