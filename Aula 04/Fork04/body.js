@@ -29,7 +29,8 @@ console.log("Todos os Personagens da lista são: "+personagens)
 for (let i = 0; i - 3; i++) {
 indiceAleatorio = Math.floor(Math.random() * 10)
 
-viloesPossiveis[]
+//Ex: Vilões de Novelas 
+viloesPossiveis["Nazaré Tedesco", "Odete Roitman", "Flora", "Carminha", "Laura Prudente da Costa"]
 
 }
 
