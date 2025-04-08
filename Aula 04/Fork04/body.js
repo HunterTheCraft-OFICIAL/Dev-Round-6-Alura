@@ -1,8 +1,10 @@
+//Aula 04
+
 //Preciso criar uma lista com 3 jogadores 
 
-personagens = {"", "", ""}
+personagens = ["", "", ""]
 
-viloes = {"", "", ""}
+viloes = ["", "", ""]
 
 forçaPersonagem = 0
 forçaViloes = 0
@@ -13,7 +15,7 @@ console.log("Os Personagens atuais armazenados são:" + personagens)
 for (let i = 0; i - 3; i++) {
 
 escolhaPersonagem = prompt("Digite o nome do seu personagem" + (i+1))
-personagem[i] = escolhaPersonagem
+personagens[i] = escolhaPersonagem
 
 console.log("O Personagem "+ escolhaPersonagem +" foi adicionado a lista")
 
@@ -28,3 +30,5 @@ console.log("Todos os Personagens da lista são: "+personagens)
 //Calcular a força de cada jogador e obter a soma da força total do time do computador 
 
 //Comparar os 2 times para saber quem venceu (Jogador vs Computador)
+
+//O que será?

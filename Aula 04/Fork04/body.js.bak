@@ -19,7 +19,7 @@ console.log("O Personagem "+ escolhaPersonagem +" foi adicionado a lista")
 
 }
 
-
+console.log("Todos os Personagens da lista são: "+personagens)
 
 //Times > 3 Times > jogadores > 3 jogadores > personagem > personagens 
 
