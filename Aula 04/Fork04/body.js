@@ -21,6 +21,7 @@ console.log("O Personagem "+ escolhaPersonagem +" foi adicionado a lista")
 
 //Força do Personagem 
 forcaPersonagem = forcaPersonagem + Math.floor(Math.random() * 50)+1
+forcaPersonagem += Math.floor(Math.random() * 50)+1
 
 }
 
