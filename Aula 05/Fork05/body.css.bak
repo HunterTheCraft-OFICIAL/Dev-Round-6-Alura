@@ -34,7 +34,7 @@ body {
 /* Títulos e textos */
 h2,
 p {
-  color: red;
+  color: white;
 }
 
 /* Estrutura do questionário */
