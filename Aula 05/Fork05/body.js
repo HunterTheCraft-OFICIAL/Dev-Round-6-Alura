@@ -7,6 +7,22 @@ perguntas = [
       { opção: "Charizard", correto: false },
       { opção: "Bubassauro", correto: false }
     ]
+  }, 
+  {
+    "pergunta": "Qual é o nome da equipe de vilões que Ash e seus amigos frequentemente enfrentam?",
+    "respostas": [
+      { "opção": "Equipe Rocket", "correto": true },
+      { "opção": "Equipe Magma", "correto": false },
+      { "opção": "Equipe Aqua", "correto": false }
+    ]
+  },
+  {
+    "pergunta": "Quantas evoluções o Eevee possui?",
+    "respostas": [
+      { "opção": "8", "correto": true },
+      { "opção": "5", "correto": false },
+      { "opção": "3", "correto": false }
+    ]
   }
 ];
 

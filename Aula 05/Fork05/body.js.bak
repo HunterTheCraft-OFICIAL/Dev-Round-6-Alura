@@ -1,11 +1,14 @@
 // PARTE 1: Lista de perguntas e respostas
-perguntas = [{pergunta:"Qual é o Principal Pokémon do Ash?",
-             respostas:[{opção:"Picachu", correto:true}, {opção:"Charizard", correto:false}, {opção:"Bubassauro", correto:false}]}]
-             
-//             "Picachu", "Charizard", "Bubassauro"]}]
-
-//perguntas = [{pergunta:"Qual é o Principal Pokémon do Ash?",
-//             respostas:["Picachu", "Charizard", "Bubassauro"]}]
+perguntas = [
+  {
+    pergunta: "Qual é o Principal Pokémon do Ash?",
+    respostas: [
+      { opção: "Picachu", correto: true },
+      { opção: "Charizard", correto: false },
+      { opção: "Bubassauro", correto: false }
+    ]
+  }
+];
 
 
 // PARTE 2: Pegando os elementos do HTML
