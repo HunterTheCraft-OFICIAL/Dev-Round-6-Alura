@@ -3,25 +3,25 @@ perguntas = [
   {
     pergunta: "Qual é o Principal Pokémon do Ash?",
     respostas: [
-      { opção: "Picachu", correto: true },
-      { opção: "Charizard", correto: false },
-      { opção: "Bubassauro", correto: false }
+      { opcao: "Picachu", correto: true },
+      { opcao: "Charizard", correto: false },
+      { opcao: "Bubassauro", correto: false }
     ]
   }, 
   {
-    "pergunta": "Qual é o nome da equipe de vilões que Ash e seus amigos frequentemente enfrentam?",
-    "respostas": [
-      { "opção": "Equipe Rocket", "correto": true },
-      { "opção": "Equipe Magma", "correto": false },
-      { "opção": "Equipe Aqua", "correto": false }
+    pergunta: "Qual é o nome da equipe de vilões que Ash e seus amigos frequentemente enfrentam?",
+    respostas: [
+      { opcao: "Equipe Rocket", correto: true },
+      { opcao: "Equipe Magma", correto: false },
+      { opcao: "Equipe Aqua", correto: false }
     ]
   },
   {
     "pergunta": "Quantas evoluções o Eevee possui?",
     "respostas": [
-      { "opção": "8", "correto": true },
-      { "opção": "5", "correto": false },
-      { "opção": "3", "correto": false }
+      { "opcao": "8", "correto": true },
+      { "opcao": "5", "correto": false },
+      { "opcao": "3", "correto": false }
     ]
   }
 ];

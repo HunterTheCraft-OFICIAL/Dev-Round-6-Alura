@@ -9,19 +9,19 @@ perguntas = [
     ]
   }, 
   {
-    "pergunta": "Qual é o nome da equipe de vilões que Ash e seus amigos frequentemente enfrentam?",
-    "respostas": [
-      { "opcao": "Equipe Rocket", "correto": true },
-      { "opcao": "Equipe Magma", "correto": false },
-      { "opcao": "Equipe Aqua", "correto": false }
+    pergunta: "Qual é o nome da equipe de vilões que Ash e seus amigos frequentemente enfrentam?",
+    respostas: [
+      { opcao: "Equipe Rocket", correto: true },
+      { opcao: "Equipe Magma", correto: false },
+      { opcao: "Equipe Aqua", correto: false }
     ]
   },
   {
-    "pergunta": "Quantas evoluções o Eevee possui?",
-    "respostas": [
-      { "opcao": "8", "correto": true },
-      { "opcao": "5", "correto": false },
-      { "opcao": "3", "correto": false }
+    pergunta: "Quantas evoluções o Eevee possui?",
+    respostas: [
+      { opcao: "8", correto: true },
+      { opcao: "5", correto: false },
+      { opcao: "3", correto: false }
     ]
   }
 ];
