@@ -1,31 +1,55 @@
 // PARTE 1: Lista de perguntas e respostas
 perguntas = [
-  {
-    pergunta: "Qual é o Principal Pokémon do Ash?",
-    respostas: [
-      { opcao: "Picachu", correto: true },
-      { opcao: "Charizard", correto: false },
-      { opcao: "Bubassauro", correto: false }
-    ]
-  }, 
-  {
-    pergunta: "Qual é o nome da equipe de vilões que Ash e seus amigos frequentemente enfrentam?",
-    respostas: [
-      { opcao: "Equipe Rocket", correto: true },
-      { opcao: "Equipe Magma", correto: false },
-      { opcao: "Equipe Aqua", correto: false }
-    ]
-  },
-  {
-    pergunta: "Quantas evoluções o Eevee possui?",
-    respostas: [
-      { opcao: "8", correto: true },
-      { opcao: "5", correto: false },
-      { opcao: "3", correto: false }
-    ]
-  }
-];
 
+  {
+
+    pergunta: "Qual é o Principal Pokémon do Ash?",
+
+    respostas: [
+
+      { opcao: "Picachu", correto: true },
+
+      { opcao: "Charizard", correto: false },
+
+      { opcao: "Bubassauro", correto: false }
+
+    ]
+
+  }, 
+
+  {
+
+    pergunta: "Qual é o nome da equipe de vilões que Ash e seus amigos frequentemente enfrentam?",
+
+    respostas: [
+
+      { opcao: "Equipe Rocket", correto: true },
+
+      { opcao: "Equipe Magma", correto: false },
+
+      { opcao: "Equipe Aqua", correto: false }
+
+    ]
+
+  },
+
+  {
+
+    pergunta: "Quantas evoluções o Eevee possui?",
+
+    respostas: [
+
+      { opcao: "8", correto: true },
+
+      { opcao: "5", correto: false },
+
+      { opcao: "3", correto: false }
+
+    ]
+
+  }
+
+];
 
 // PARTE 2: Pegando os elementos do HTML
 const perguntaElemento = document.querySelector(".pergunta");
@@ -49,6 +73,7 @@ function carregarPergunta() {
 
   // Percorre todas as respostas da pergunta atual
   for (let i = 0; i < perguntaAtual.respostas.length; i++) {
+  //for (let i = 0; i < perguntaAtual.respostas.length; i++) { /* Não deu Certo */
     // Pega a resposta atual com base no índice 'i'
     const resposta = perguntaAtual.respostas[i];
     // Cria um novo elemento 'button' (botão)
@@ -61,7 +86,9 @@ function carregarPergunta() {
     botao.onclick = function () {
       // Se a resposta for correta (resposta.correto === true), incrementa o número de acertos
       if (resposta.correto) {
-        acertos = acertos + 1;
+        //acertos = acertos + 1;
+        acertos = acertos ++;
+        //acertos++; // Incrementa o contador de acertos /* não deu certo */
         acertos++; // Incrementa o contador de acertos
       }
 
